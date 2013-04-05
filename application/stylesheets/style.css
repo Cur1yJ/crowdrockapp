@@ -1,0 +1,323 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "helvetica", "arial";
+    font-size: 14px;
+}
+
+input{
+    border: 1px solid gray;
+    padding: 4px;
+    font-size: 14px;
+}
+
+.body{
+    max-width: 960px;
+    margin: auto;
+    background-color: white;
+}
+
+.header{
+    padding: 5px 10px;
+    background-image: url('/application/images/cropped-velvet-red.jpg');
+    height: 110px;
+    position: relative;
+}
+
+.header .logo{
+    float: left;
+    margin: 56px 0px 0px 0px;
+    font-style: italic;
+    font-size: 36px;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    color: white;
+}
+
+.header .logo a{
+   text-decoration: none;
+   color: white;
+   font-weight: bold;
+}
+
+.header .links{
+    float: right;
+    text-align: right;
+    color: #ddd;
+}
+
+.header .links a{
+    text-decoration: none;
+    color: #ddd;
+}
+
+.header .links a:hover{
+    text-decoration: underline;
+}
+
+.header .menu{
+    float: right;
+    text-align: right;
+    color: #068119;
+    position: absolute;
+    right: 0px;
+    bottom: 10px;
+}
+
+.header .menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 2px 5px;
+}
+
+.header .menu ul{
+    list-style-type: none;
+    margin-top: 40px;
+}
+
+.header .menu a{
+    text-decoration: none;
+    color: #E4E4E4;
+    font-weight: bold;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.header .menu a:hover{
+    text-decoration: underline;
+}
+
+#nav-menu{
+    float: left;
+    text-align: left;
+    padding-bottom: 5px;
+    border-bottom: 0px solid black;
+    width: 960px;
+    margin-left: -10px;
+}
+
+#nav-menu a{
+    display: inline-block;
+    padding: 2px 5px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+#nav-menu a:first-child{
+    padding-left: 0px;
+}
+
+.clear{
+    clear: both;
+}
+
+h1{
+    margin: 5px 0px;
+}
+
+form p label{
+    display: inline-block;
+    width: 150px;
+}
+
+.mainInfo{
+    padding: 10px;
+    min-height: 300px;
+}
+
+.footer{
+    background-color: black;
+    text-align: left;
+    padding: 20px 20px 0px 20px;
+    color: #999999;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-style: italic;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.footer .footer-top{
+    border-bottom: 1px solid #222222;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.footer .footer-bottom{
+    padding: 10px 0px;
+}
+
+.footer a{
+    color: #999999;
+    text-decoration: none;
+}
+
+
+table tr td, table tr th{
+    border-bottom: 1px solid #A7A37E;
+    padding: 4px;
+}
+
+.small-widget{
+    border: 1px solid #A7A37E;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    max-width: 400px;
+    min-width: 200px;
+}
+
+.small-widget .title{
+    margin-bottom: 8px;
+    border-bottom: 1px solid #A7A37E;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding-left: 8px;
+    padding-bottom: 8px;
+    font-weight: bold;
+}
+
+.mobile{
+    min-width: 200px;
+}
+
+.mobile .header{
+    padding: 5px;
+}
+
+.mobile .header .title{
+    float: left;
+    margin: 5px 0px;
+    vertical-align: middle;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.mobile .mainInfo{
+    padding: 5px;
+    min-height: 300px;
+}
+
+.mobile .party-song{
+    padding: 8px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin: 5px 0px;
+    border: 1px solid #A7A37E;
+}
+
+.mobile .party-song.playing{
+    background-color: pink;
+}
+
+.mobile .party-song .title{
+    font-weight: bold;
+    margin: 5px;
+    float: left;
+    line-height: 1.1em;
+}
+
+.mobile .party-song .vote-counts{
+    font-size: 11px;
+    font-weight: normal;
+    color: black;
+}
+
+.mobile .party-song.playing .title{
+    color: white;
+}
+
+.mobile .party-song .vote-button{
+    display: inline-block;
+    height: 20px;
+    padding: 0px 4px;
+    line-height: 19px;
+    border-radius: 12px;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    text-align: center;
+    font-weight: normal;
+    border: 1px solid #A7A37E;
+    margin: 2px;
+    font-size: 10px;
+}
+
+.mobile .party-song .vote-up{
+    float: left;
+}
+
+.mobile .party-song .vote-down{
+    float: right;
+}
+
+input.round-button{
+    padding: 2px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 1px solid #A7A37E;
+    background-color: #A7A37E;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+a.round-button{
+    padding: 2px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 1px solid #A7A37E;
+    background-color: #A7A37E;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+a.round-button.large{
+    padding: 5px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border: 1px solid #A7A37E;
+    background-color: #608DC3;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#infoMessage, .infoMessage{
+    text-align: center;
+    font-weight: bold;
+    padding: 2px;
+    text-align: left;
+}
+
+.steps{
+    padding: 10px;
+    margin: 0px -20px -10px;
+    background-color: #E4E4E4;
+    font-size: 16px;
+}
+
+.steps .step{
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin-right: 20px;
+}
+
+.steps .step .title{
+    font-weight: normal;
+    font-style: italic;
+    font-size: 28px;
+    color: #068119;
+    margin: 0px 0px 20px 0px;
+}
+

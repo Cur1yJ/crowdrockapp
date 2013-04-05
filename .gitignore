@@ -1,0 +1,16 @@
+# This augmented .gitignore arranges to ignore Rails documentation files, Vim and Emacs swap files, and (for OS X users) the weird .DS_Store directories created by the Mac Finder application.
+
+# Ignore all logfiles and tempfiles.
+/log/*.log
+/application/logs
+
+/tmp
+
+# Ignore other unneeded files.
+doc/
+*.swp
+*~
+.project
+.DS_Store
+.idea
+application/config/database.php

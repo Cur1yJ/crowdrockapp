@@ -1,0 +1,127 @@
+div#page{
+    background: whitesmoke;
+}
+.li-des
+{
+    text-align: left;
+}
+.sresult
+{
+    text-align: center;
+    padding-bottom: 15px;
+    margin: 5px;
+    padding-top: 3px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+}
+.ui-li-icon
+{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 5px;
+    margin-left: 50px;
+
+}
+
+.ui-li-thumb
+{
+    width: 45px;
+    height: 45px;
+    margin-bottom: 5px;
+    left: 70px;
+    top: 10px;
+}
+
+.li-a-left
+{
+    float:left;
+}
+.li-a-right
+{
+    float: right;
+}
+
+#page .ui-content{
+    padding: 10px;
+}
+
+#page .ui-content .ui-listview{
+    margin: 0px -15px;
+}
+
+#page .ui-li .ui-btn-inner a.ui-link-inherit, .ui-li-static.ui-li{
+    padding: 0.5em 5px;
+}
+
+#page .ui-controlgroup, fieldset.ui-controlgroup{
+    margin: 0.5em 0 1em;
+}
+
+#page .ui-li-desc{
+    margin: 0em 120px 0.5em;
+    font-size: 60%;
+}
+
+#page .ui-li-heading{
+    margin: 0.1em 0.3em 0.3em 120px;
+}
+
+#page .ui-li-icon{
+    margin-left: 25px;
+}
+
+#listview-1 .ui-btn-icon-left .ui-btn-inner {
+    padding-left:16px;
+}
+
+#listview-1 .ui-btn-inner {
+    padding: 0.2em 12px;
+}
+
+.ui-body-c.playing{
+    background: -moz-linear-gradient(#D3340A, #AE1902) repeat scroll 0 0 #F0F0F0;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgb(174,25,2)),	color-stop(0.5, rgb(211,53,10)));
+    color: white;
+    text-shadow: 0 0px 0 #FFFFFF;
+    font-size: 150%;
+}
+
+.ui-body-c.playing .ui-li-heading{
+    font-size: 20px;
+}
+
+.ui-icon-playing{
+    background-image: url(/application/images/playing.png);
+    background-repeat: no-repeat;
+    background-position: -2px -2px;
+}
+
+.ui-icon-like{
+}
+
+.ui-btn-inline{
+    vertical-align: middle;
+}
+
+.ui-dialog-background {
+opacity: 0.5;
+display: block !important;
+-webkit-transition: opacity 0.5s ease-in;
+}
+
+.ui-dialog-background.pop.in {
+opacity: 1;
+-webkit-transition: opacity 0.5s ease-in;
+}
+
+.ui-dialog {
+min-height: 100% !important;
+background: transparent !important;
+}
+
+.ui-listview .vote-counts{
+    width: 100%;
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+}
