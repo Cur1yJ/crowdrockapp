@@ -2,7 +2,7 @@
 by [Series 79 of FIELD Course LLC - Harvard University Business School Class of 2013](http://www.harvard.edu)
 
 ----
-Architect: Michael Lungo <mike@michaellungo.com>
+Architect: Michael Lungo | <mike@michaellungo.com>
 
 ## Finished in 4th Place in Class
 
@@ -12,6 +12,22 @@ Requirements:
 	apache
 	mysql
 
+
+Main Features: 
+
+	Live DJ Back-End
+	Create & Share Custom Party Playlists in Real-Time
+	Send a reminder email to guests with the unique playlist link
+	Live Party Leaderboard - Reputation points” awarded to users who frequently make popular song selections using CrowdRock
+	Live Song Comments - Get real-time feedback on the playlist from guests and see which songs they want to hear
+	Voting mechanism for song selections
+	GPS Location Services
+	Search Nearby Parties
+	Mobile Compatible
+	Import iTunes Playlist
+	
+More Info: [FAQ](http://crowdrockapp.wordpress.com/faqs/) | [About](http://crowdrockapp.wordpress.com/about/) | [Blog](http://crowdrockapp.wordpress.com/)
+	
 
 Repository Notes:
 
