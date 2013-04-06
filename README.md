@@ -1,10 +1,11 @@
+## Crowd Rock App
+
 [CrowdRockApp](http://www.crowdrockapp.com)
-by [Series 79 of FIELD Course LLC - Harvard University Business School Class of 2013](http://www.harvard.edu)
+by [Series 79 of FIELD Course LLC - Harvard University Business School Class of 2013 - 4th Place](http://www.harvard.edu)
 
 ----
 Architect: Michael Lungo | <mike@michaellungo.com>
 
-## Finished in 4th Place in Class
 
 Requirements:
 
